@@ -1,8 +1,7 @@
-// import 'package:base/ui/screens/home_screen.dart';
-import 'package:base/utils/constants/routes.dart';
-import 'package:base/utils/themes/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'utils/constants/routes.dart';
+import 'utils/themes/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,6 @@ class MyApp extends StatelessWidget {
       darkTheme: AppThemes.darkTheme,
       getPages: AppRoutes.routes,
       initialRoute: AppRouteNames.home,
-      // home: const HomeScreen(),
     );
   }
 }
